@@ -29,7 +29,7 @@ class Hangman:
 
     Methods:
     -------
-    check_letter(letter)
+    check_guess(letter)
         Checks if the letter is in the word.
     ask_letter()
         Asks the user for a letter.

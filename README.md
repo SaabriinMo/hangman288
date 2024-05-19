@@ -7,7 +7,12 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. The aim of this project is to better understand advanced python project.
 
 ### What did i learn:
-Develop a better understanding of how to build project following the OOP methodology. I also understood control flows (such as for-loops and while loops) as lot better. This project help me get into the mentality of organising and documenting my code at every step.
+Develop a better understanding of how to build project following the OOP methodology. I also understood control flows (such as for-loops and while loops) as lot better. This project help me get into the mentality of organising and documenting my code at every step. 
+
+Improvements:
+1. using visual representation of each stage of the hangman's life.
+2. using a text file/api to get a random word rather than relying on a list.
+
 
 ## Installation instructions
 To clone this project:
