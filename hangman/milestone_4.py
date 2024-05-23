@@ -79,7 +79,7 @@ class Hangman():
         '''
         while True:
             guess = input("Guess a letter: ")
-            if len(guess) != 1 and not guess.isalpha():
+            if len(guess) != 1 and guess.isalpha():
                  print( "Invalid letter. Please, enter a single alphabetical character.")
             elif guess in self.list_of_guesses:
                 print("You already tried that letter!")
@@ -96,4 +96,3 @@ if __name__ == "__main__":
     # for testing purposes: 
     # print(hangman.num_letters)
     # print(hangman.list_of_guesses)
-

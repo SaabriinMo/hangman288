@@ -17,7 +17,9 @@ Improvements:
 ## Installation instructions
 To clone this project:
 
-``` git clone git@github.com:SaabriinMo/hangman288.git```
+```bash
+git clone git@github.com:SaabriinMo/hangman288.git
+```
 
 if SSH is set up. HIGHLY recommend!
 ## Usage instructions

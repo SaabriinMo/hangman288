@@ -91,7 +91,7 @@ class Hangman:
 
                 
 
-def play_game(word_list):
+def play_game(word_list, num_lives):
     '''
     This function simulate the hangman game using the Hangman Class
 
@@ -100,7 +100,6 @@ def play_game(word_list):
      - if all the letters in the words are guessed and theres still 
        got some lives left, they have won the game. (that or they cheated :) )
     '''
-    num_lives = 5
     game = Hangman(word_list=word_list, num_lives=num_lives)
     while True:
         if game.num_lives == 0:
@@ -114,4 +113,4 @@ def play_game(word_list):
 
 if __name__ == '__main__':
     word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
-    play_game(word_list)
+    play_game(word_list, 10)
